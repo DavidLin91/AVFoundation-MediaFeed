@@ -17,6 +17,9 @@
 		6375B72F2444C06A009D4F1E /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6375B72E2444C06A009D4F1E /* HeaderView.swift */; };
 		6375B7312444C406009D4F1E /* MediaObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6375B7302444C406009D4F1E /* MediaObject.swift */; };
 		6375B7332444EB5A009D4F1E /* URL=VideoPreviewThumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6375B7322444EB5A009D4F1E /* URL=VideoPreviewThumbnail.swift */; };
+		638CD930244619B9001E1074 /* MediaFeedDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 638CD92E244619B9001E1074 /* MediaFeedDataModel.xcdatamodeld */; };
+		638CD93324461BD3001E1074 /* CDMediaObject+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638CD93124461BD3001E1074 /* CDMediaObject+CoreDataClass.swift */; };
+		638CD93424461BD3001E1074 /* CDMediaObject+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638CD93224461BD3001E1074 /* CDMediaObject+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		6375B72E2444C06A009D4F1E /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		6375B7302444C406009D4F1E /* MediaObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaObject.swift; sourceTree = "<group>"; };
 		6375B7322444EB5A009D4F1E /* URL=VideoPreviewThumbnail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL=VideoPreviewThumbnail.swift"; sourceTree = "<group>"; };
+		638CD92F244619B9001E1074 /* MediaFeedDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MediaFeedDataModel.xcdatamodel; sourceTree = "<group>"; };
+		638CD93124461BD3001E1074 /* CDMediaObject+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CDMediaObject+CoreDataClass.swift"; sourceTree = "<group>"; };
+		638CD93224461BD3001E1074 /* CDMediaObject+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CDMediaObject+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +71,11 @@
 			isa = PBXGroup;
 			children = (
 				6375B7182444B9A9009D4F1E /* AppDelegate.swift */,
+				638CD92E244619B9001E1074 /* MediaFeedDataModel.xcdatamodeld */,
 				6375B71A2444B9A9009D4F1E /* SceneDelegate.swift */,
 				6375B71C2444B9A9009D4F1E /* MediaFeedVC.swift */,
+				638CD93124461BD3001E1074 /* CDMediaObject+CoreDataClass.swift */,
+				638CD93224461BD3001E1074 /* CDMediaObject+CoreDataProperties.swift */,
 				6375B7322444EB5A009D4F1E /* URL=VideoPreviewThumbnail.swift */,
 				6375B71E2444B9A9009D4F1E /* Main.storyboard */,
 				6375B72E2444C06A009D4F1E /* HeaderView.swift */,
@@ -152,10 +161,13 @@
 			files = (
 				6375B72F2444C06A009D4F1E /* HeaderView.swift in Sources */,
 				6375B7312444C406009D4F1E /* MediaObject.swift in Sources */,
+				638CD93424461BD3001E1074 /* CDMediaObject+CoreDataProperties.swift in Sources */,
 				6375B7332444EB5A009D4F1E /* URL=VideoPreviewThumbnail.swift in Sources */,
 				6375B71D2444B9A9009D4F1E /* MediaFeedVC.swift in Sources */,
 				6375B7192444B9A9009D4F1E /* AppDelegate.swift in Sources */,
 				6375B72D2444C029009D4F1E /* MediaCell.swift in Sources */,
+				638CD930244619B9001E1074 /* MediaFeedDataModel.xcdatamodeld in Sources */,
+				638CD93324461BD3001E1074 /* CDMediaObject+CoreDataClass.swift in Sources */,
 				6375B71B2444B9A9009D4F1E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,6 +366,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		638CD92E244619B9001E1074 /* MediaFeedDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				638CD92F244619B9001E1074 /* MediaFeedDataModel.xcdatamodel */,
+			);
+			currentVersion = 638CD92F244619B9001E1074 /* MediaFeedDataModel.xcdatamodel */;
+			path = MediaFeedDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 6375B70D2444B9A8009D4F1E /* Project object */;
 }
